@@ -37,3 +37,12 @@
             return false;
         }
     }
+let dset = new DisJointSets();
+    dset.create(1)
+    dset.create(2)
+    dset.create(3)
+    dset.create(4)
+    dset.union(1,2)
+    dset.union(4,1)
+    dset.checkSet(1,3)
+}
